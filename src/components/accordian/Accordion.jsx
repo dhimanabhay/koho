@@ -10,7 +10,7 @@ const Accordion = ({ title, answer }) => {
         onClick={() => setAccordionOpen(!accordionOpen)}
         className="flex justify-between items-center w-full"
       >
-        <span className="hover:underline pt-3">{title}</span>
+        <span className="hover:underline text-lg pt-3">{title}</span>
         <svg
           className="fill-indigo-500 shrink-0 ml-8"
           width="16"
@@ -44,8 +44,7 @@ const Accordion = ({ title, answer }) => {
             : "grid-rows-[0fr] opacity-0"
         }`}
       >
-        {/* <div className="overflow-hidden">{answer}</div> */}
-        <div className="overflow-hidden pt-3" dangerouslySetInnerHTML={{ __html: answer }} />
+        <div className="overflow-hidden pt-3 text-lg" dangerouslySetInnerHTML={{ __html: answer }} />
 
       </div>
     </div>

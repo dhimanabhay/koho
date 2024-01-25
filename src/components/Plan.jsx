@@ -73,7 +73,7 @@ export default function Plan() {
                 </p>
               </div>
               <button className="self-center bg-[#235696] text-white w-4/5 py-4 my-1 px-3 rounded hover:shadow-xl hover:-translate-y-1 transition-all">
-                {item.btnText}
+                <a href={item.link}>{item.btnText}</a>
               </button>
               <div className="px-6 py-4 flex flex-col gap-3">
                 {item.list.map((point, index) => (

@@ -27,10 +27,12 @@ export default function Navbar() {
             <a href="/Easy" className="cursor-pointer hover:underline">
               easy
             </a>
-            <li className="cursor-pointer hover:underline">essential</li>
-            <li className="cursor-pointer hover:underline">extra</li>
-            {/* <li className="cursor-pointer hover:underline">everything</li> */}
-            {/* <li className="cursor-pointer hover:underline">compare all</li> */}
+            <a href="/Essential" className="cursor-pointer hover:underline">
+              essential
+            </a>
+            <a href="/Extra" className="cursor-pointer hover:underline">
+              extra
+            </a>
           </ul>
         </div>
         <div className="flex gap-4">
